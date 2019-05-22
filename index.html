@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Hip-Hop Webslides </title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="please add">
+  <!-- CSS Base -->
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/34474.ico" type="image/x-icon">
+  <link rel="stylesheet" type='text/css' media='all' href="css/webslides.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.14/c3.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+  <!-- Javascript Library -->
+  <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/webslides.min.js"></script>
+  <script src="https://unpkg.com/d3@5/dist/d3.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.14/c3.min.js"></script>
+</head>
+
+<body>
+  <article id="webslides">
+    <!-- the landing scene -->
+    <section class="bg-black">
+      <video class="background-video dark" autoplay muted loop>
+        <source src="assets/carti.mp4" type="video/mp4">
+      </video>
+      <div class="wrap aligncenter">
+        <h1>
+          <strong>A Brief Overview of US Hip-Hop</strong>
+        </h1>
+      </div>
+    </section>
+    <!-- the first map -->
+    <section class="bg-black">
+      <div id="mymap"></div>
+      <div class="wrap">
+        <div class="content-left">
+          <h5> Hip-Hop Capitols of America </h5>
+        </div>
+      </div>
+    </section>
+    <!-- the second map -->
+    <section class="bg-black">
+      <div id="mymap2"></div>
+      <div class="wrap">
+        <div class="content-left">
+          <h5> Largest Artists For Each City </h5>
+        </div>
+      </div>
+    </section>
+    <!-- the first chart -->
+    <section class="bg-black">
+      <div id="mychart1">
+        <div id="chart1"></div>
+        <p> Over the last decade, hip-hop has taken the place of the most popular genre in the United States. Data on this chart and the following are taken from the Billboard Top 100 Song charts for each year. The popularity
+          of hip-hop continues to rise into 2019. For this chart, I counted songs with features from hip-hop atists as hip-hop songs. </p>
+      </div>
+    </section>
+    <!-- the second chart -->
+    <section class="bg-black">
+      <div id="mychart2">
+        <div id="chart2"></div>
+        <p> In 2019, Atlanta stands as the undisputed hip-hop capitol of the world. Not only does Atlanta have many of the most popular and highest charting rappers, but it has had a strong underground scene
+          for the last 25 years. Many of the music industry's most desired producers also come from and reside in Atlanta. Examples include Atlanta natives Metro Boomin, Pierre Bourne, Mike-Will-Made-It, Sonny Digital,
+          and many more. </p>
+      </div>
+    </section>
+  </article>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
